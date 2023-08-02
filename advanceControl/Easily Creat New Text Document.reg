@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CreateNewTextFile]
+@="Create New Text File"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CreateNewTextFile\command]
+@="cmd.exe /c echo 2>NUL > \"%V\\New Text Document.txt\""
